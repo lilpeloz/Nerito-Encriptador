@@ -1,0 +1,315 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background: #ebf4f5;
+}
+
+header{
+    height: 75px;
+    background: linear-gradient(90deg, #002acc, #ebf4f5);
+    padding: 20px 0;
+    box-shadow: 0 0px 10px #00032b;
+}
+
+.logo{
+    height: 40px;
+}
+.icono{
+    width: 120px;
+    height: 48px;
+    margin-right: 20px;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px 10px 20px;
+    margin: auto;
+}
+
+main{
+    position: absolute;
+    margin-left: 300px;
+    width: 940px;
+    display: flex;
+}
+
+.Encriptador{
+    position: absolute;
+    width: 660px;
+    height: 365px;
+    padding-top: 40px;
+    padding-left: 20px;
+    
+}
+
+.frase-encriptada{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #ebf4f5;
+    cursor: pointer;
+    color: #00032b;
+    font-size: 32px;
+    font-weight: 400;   
+}
+
+.frase-encriptada::placeholder{
+    color: #002acc;
+}
+
+.contenedor-texto1{
+    position: absolute;
+    left: 20px;
+    top: 530px;
+    color: #00032b;
+}
+
+.botones{
+    position: absolute;
+    top: 540px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.boton1{
+    color: #ebf4f5;
+    background-color: #002acc;
+    margin-right: 40px;
+    padding:  12px 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.boton2{
+    color: #002acc;
+    background-color: #b9c7ff;
+    margin:  0;
+    padding:  12px 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #002acc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contenedor-secundario{
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 540px;
+    width: 255px;
+    height: 575px;
+    background-color: #ebf4f5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px #00032b;
+}
+.contenido-imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+}
+.lupa{
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-texto2{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#texto1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.frase-encriptada2{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+    border: none;
+    outline: none;
+    color: #00032b;
+    background-color: #ebf4f5;
+}
+
+.boton-copiar{
+    display: block;
+    position: absolute;
+    top: 520px;
+    margin-left: 65px;
+
+}
+
+.boton3{
+    color: #002acc;
+    background-color: #b9c7ff;
+    margin:  0;
+    padding:  12px 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #002acc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    height: 75px;
+    background: linear-gradient(90deg, #002acc, #ebf4f5);
+    margin-top: 618px;
+    box-shadow: 0 0px 10px #00032b;
+    
+}
+.icono2{
+    width: 120px;
+    height: 48px;
+    margin-top: 3px;
+    margin-left: 665px;
+    
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright{
+    margin-left: 539px;
+    margin-top: -7px;
+    color: #ebf4f5;
+    font-weight: bold;   
+}
+.copyright:hover{
+    color: #00032b;
+}
+
+@media screen and (max-width:480px){
+    header{
+        height: 333px;
+        width: 1235px;
+        padding: 30px 0;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-betwee;
+        
+   
+    }
+    .icono{
+        width: 545px;
+        height: 254px;
+        
+    }
+    h1{
+        font-size: 80px;
+        padding-bottom: 40px;
+   
+    }
+
+    main{
+        margin-left: 220px;
+    }
+    .contenedor-principal{
+        margin-left: -130px;
+    }
+    .Encriptador{
+        padding-top: 92px;
+    }
+    .contenedor-texto1{
+        left: -110px;
+        top: 674px;
+        font-size: 20px;
+    }
+    .botones{
+        top: 691px;
+        left: -140px;
+    }
+
+    .boton1 {
+        margin-right: 10px;
+        padding: 23px 140px;
+        font-size: 40px;
+    }
+
+    .boton2{
+        margin-right: 35px;
+        padding: 23px 112px;
+        font-size: 40px;
+
+    }
+    
+    .contenedor-secundario{
+        margin-top: 865px;
+        margin-left: -154px;
+        width: 1105px;
+        height: 1329px;
+    }
+    .contenido-imagen{
+        margin-top: 52px;
+        margin-bottom: 72px;
+    }
+    
+    .lupa{
+        width: 430px;
+        height: 430px;
+    }
+    
+
+    #texto1,#texto2{
+        font-size: 60px;
+    }
+
+    .frase-encriptada2{
+        font-size: 40px;
+    }
+    
+    .boton-copiar{
+        top: 917px;
+        margin-left: 280px;
+    }
+    
+    .boton3{
+        padding: 25px 202px;
+        font-size: 40px;
+    }
+
+    .icono2{
+        margin-top: 29px;
+        margin-left: 540px;
+    }
+
+    .copyright{
+        text-align: center;
+        font-size: 35px;
+        color: #00032b;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+       
+    footer{
+        margin-top: 2194px;
+        height: 219px;
+        width: 1236px;
+    }
+}
+

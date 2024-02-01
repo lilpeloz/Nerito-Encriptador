@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nerito Encriptador</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+             <img class="icono" src="img/neritoEncriptador.png" alt="logoEncriptador">
+             <h1>Nerito Encriptador</h1>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor-principal">
+            <div class="Encriptador">
+                <textarea id ="fraseEncriptado"class="frase-encriptada" placeholder="Frase para encriptar aqui"></textarea>  
+            </div> 
+            <div class="contenedor-texto1">
+                <p>❗ Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+               <input type="button" onclick="botonEncriptador();" value="Encriptar" class="boton1">
+                <input type="button" onclick="botonDesencriptador();"value="Desencriptar" class="boton2">  
+            </div>
+        </section>
+        <section class="contenedor-secundario">
+            <div class="contenido-imagen">
+                <img id= "lupa" class="lupa" src="img/lupa.png" alt="lupa">
+            </div>
+            <div class="contenedor-texto2">
+                <h2 id="texto1">no hay frase encripada</h2>
+                <textarea id ="fraseEncriptado2"class="frase-encriptada2" placeholder="ingrese la frase aqui"></textarea> 
+            </div>
+            <div class="boton-copiar" id="botonC">
+                <input id="ocultar" type="button" onclick="copia();" value="copiar" class="boton3"> 
+            </div>
+
+        </section>
+                    
+    </main>
+    <script src="encriptadro.js"></script>
+    
+</body>
+<footer><img  class="icono2" src="img/neritoEncriptador.png" alt="logoEncriptador">
+<a href="https://github.com/lilpeloz"><p class="copyright">copyright 2024 - nerito Encriptador</p></a></footer>
+</html>
